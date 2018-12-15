@@ -56,7 +56,7 @@
           content: '认证审核中',
           icon: 'cubeic-alert',
           onConfirm:()=>{
-            this.goto('/')
+            this.goto('/login')
           }
         }).show()
       }

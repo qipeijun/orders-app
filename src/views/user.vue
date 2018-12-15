@@ -46,6 +46,7 @@
     },
     methods:{
       loginOut(){
+        sessionStorage.ifLogin = '';
         this.$router.push({
           path:"/login"
         })

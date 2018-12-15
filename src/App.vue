@@ -4,6 +4,32 @@
   </div>
 </template>
 
+<script>
+  import mixins from './assets/js/mixins'
+  export default {
+    mixins:[mixins],
+    data(){
+      return {
+        
+      }
+    },
+    methods:{},
+    created(){
+      
+    },
+    mounted() {
+    },
+    watch:{
+      $route(){
+        let ifLogin = sessionStorage.ifLogin || '';
+        if (!ifLogin) {
+            this.goto('/login')
+        }
+      }
+    }
+  }
+</script>
+
 <style lang="scss">
   @import "assets/scss/function";
   *{

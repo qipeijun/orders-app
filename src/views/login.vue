@@ -76,6 +76,7 @@
           txt: "登录中...",
           $events: {
             timeout: () => {
+              sessionStorage.ifLogin = 'login';
               this.goto('/')
             }
           }

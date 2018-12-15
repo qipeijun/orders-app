@@ -23,7 +23,7 @@
       $route(){
         let ifLogin = sessionStorage.ifLogin || '';
         if (!ifLogin) {
-            this.goto('/login')
+            // this.goto('/login')
         }
       }
     }

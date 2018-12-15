@@ -1,5 +1,5 @@
 
-# [DEMO](https://qipeijun.github.io/orders-app/orders/#/orders)
+# [DEMO](https://qipeijun.github.io/orders-app/orders/index.html)
 
 # orders-app
 
